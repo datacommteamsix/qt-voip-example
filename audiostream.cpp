@@ -10,7 +10,7 @@ audiostream::audiostream(QWidget *parent)
 	ui.setupUi(this);
 
 	// Set Audio Format
-	mFormat.setSampleRate(48000);
+	mFormat.setSampleRate(44100);
 	mFormat.setChannelCount(2);
 	mFormat.setSampleSize(16);
 	mFormat.setCodec("audio/pcm");
